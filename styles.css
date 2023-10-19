@@ -107,3 +107,16 @@ img {
 .ili:hover {
     color:dodgerblue;
 }
+.vid{
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.vid .sho{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 70%; 
+    height: 70%; 
+    object-fit: cover;
+}
