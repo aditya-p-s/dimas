@@ -1,0 +1,102 @@
+/* here goes */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Orbitron&display=swap');
+body{
+    margin:30px;
+    background-image:url("bakgr.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:rgb(230, 230, 230);
+    background-position:center;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px groove darkgrey;
+    background-size:auto;
+    margin:20px;
+    padding:10px;
+    size:100%;
+    font-family: 'Orbitron', sans-serif;
+}
+nav {
+    background-color: rgba(52, 52, 52, 0.6); /* Styling for the navbar */
+    color: white;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-size:30px;
+    padding: 10px 20px;
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+    border:2px groove darkgrey;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a span{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 5px;
+    margin-left:5px;
+    border: 1px groove darkgrey;
+}
+nav ul li span{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 5px;
+    margin-left:5px;
+    border: 1px groove darkgrey;
+}
+
+.navleft {
+    display:flex;
+    align-items: center;
+}
+.navright {
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+}
+
+p{
+    font-size:20px;
+}
+a {
+    text-decoration: none; 
+}
+
+.nlink {
+    text-decoration: none; 
+    color: inherit;
+    
+}
+.nlink:hover {
+    color: maroon;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.8);
+    min-width: 160px;
+    z-index: 1;
+    border:2px groove darkgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the individual dropdown items */
+.dropdown-content li {
+    display: block;
+    padding: 10px 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
