@@ -109,15 +109,19 @@ img {
 }
 .vid{
     position: relative; 
-    padding-bottom: 10%; 
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
 .vid .sho{
     position: absolute;
-    top: 0; 
-    left: 0; 
-    width: 80%; 
-    height: 80%; 
+    margin:auto;
+    display: block;
+    text-align: center; 
+    width: 70%; 
+    height: 70%; 
     object-fit: cover;
+    top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
