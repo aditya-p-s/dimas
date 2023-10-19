@@ -111,6 +111,7 @@ img {
     position: relative; 
     padding-bottom: 10%; 
     height: 0;
+    overflow: hidden;
 }
 .vid .sho{
     position: absolute;
