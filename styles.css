@@ -63,6 +63,7 @@ nav ul li span{
     margin-left:auto;
 }
 
+
 p{
     font-size:20px;
 }
@@ -137,4 +138,48 @@ img {
     display: none;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+/* for mobile */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;  /* Adjust padding for smaller screens */
+        font-size: 12px; /* Reduce font size for smaller screens */
+    }
+
+    .navleft{
+        display: flex; /* Change to block layout on smaller screens */
+        align-items: center; /* Center the content on smaller screens */
+    }
+    .navleft img{
+        scale:50%;
+    }
+    .navright{
+        display:flex;
+        align-items: center;
+        margin-left:auto;
+    }
+
+    .navleft ul, .navright ul {
+        margin: 10px 0; /* Add margin for better spacing on smaller screens */
+    }
+
+    .navleft ul li, .navright ul li {
+        display: inline-block; /* Adjust list items to stack on top of each other */
+        margin: 5px 0; /* Add margin between list items */
+    }
+    .dropdown-content {
+        display: none; /* Hide dropdown content on mobile by default */
+        position: relative; /* Change position for mobile layout */
+        background-color: rgba(51, 51, 51, 0.8);
+        min-width: 160px;
+        z-index: 1;
+        border: 2px groove darkgrey;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block; /* Show dropdown content on hover for touch devices */
+        position: absolute;
+    }
+
+    
 }
