@@ -125,3 +125,17 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#slidepic, #slidediv {
+    transition: opacity 1s ease-in-out; /* Fade transition effect */
+    cursor: pointer;
+}
+#slidepic{
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+}
+.slidein{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
